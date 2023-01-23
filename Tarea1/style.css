@@ -1,0 +1,127 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+body{
+    height: 100%;
+}
+
+header,footer{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+}
+
+nav{
+    background-color: lightcoral;
+    height: 30px;
+    text-align: center;
+    font-size: large;
+}
+
+main{
+    max-width: 1600px;
+    margin:0 auto;
+}
+
+.container{
+    width: 100%;
+}
+
+.container > div{
+    background-color: linen;
+    height: auto;
+    width: 100%;
+    float: left;
+    border: solid 1px black;
+    box-sizing: border-box;
+    font-size: x-large;
+}
+
+.contacto{
+    background-color: linen;
+    height: auto;
+    width: 100%;
+    border: solid 1px black;
+    font-size: x-large;
+    text-align: center;
+}
+
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#Jenn{
+    width: 50%;
+    height: 50%;
+    margin-left: 100px;
+
+}
+
+#git,#in{
+    width: 5%;
+    height: 5%;
+}
+
+.mascota{
+    width: 300px;
+    height: 330px;
+    margin-left: 100px;
+}
+
+#principal{
+    box-sizing: border-box;
+    width:100%;
+    float: left;
+    font-size: x-large;
+}
+
+#info{
+    background-color: wheat;
+    box-sizing: border-box;
+    width:60%;
+    margin: 40px;
+    float: left;
+    font-size: x-large;
+}
+
+@media screen and (min-width:800px){
+    .container>div{
+        width:50%;
+    }
+    #Jenn{
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 25%;
+        height: 25%;
+    }
+    .mascota{
+        width: 250px;
+        height: 270px;
+    }
+    
+}
+
+@media screen and (min-width:1290px){
+    .container>div{
+        width:33.3%;
+    }
+    #Jenn{
+        width: 20%;
+        height: 20%;
+    }
+    .mascota{
+        width: 200px;
+        height: 230px;
+    }
+   
+}
+
+
+
+
