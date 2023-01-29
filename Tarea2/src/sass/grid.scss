@@ -1,0 +1,61 @@
+@import "colores";
+@import "mixins";
+
+.container{
+    width: 100%;
+    > div{
+        @include cuadrosInfo;
+        float: left;
+        box-sizing: border-box;
+
+        @include mobile{
+            width:50%;
+        }
+        @include tablet{
+            width:33.3%;
+        }
+    }
+
+    &::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+#Jenn{
+    width: 50%;
+    height: 50%;
+    margin-left: 100px;
+
+    @include mobile{
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 25%;
+        height: 25%;
+    }
+
+    @include tablet{
+        width: 20%;
+        height: 20%;
+    }
+   
+}
+
+.mascota{
+    width: 300px;
+    height: 330px;
+    margin-left: 100px;
+
+    @include mobile{
+        width: 250px;
+        height: 270px;
+    }
+
+    @include tablet{
+        width: 200px;
+        height: 230px;
+    }
+    
+}
+
