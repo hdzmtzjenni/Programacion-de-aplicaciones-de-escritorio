@@ -1,0 +1,65 @@
+.container {
+  width: 100%;
+}
+.container > div {
+  background-color: linen;
+  height: auto;
+  width: 100%;
+  border: solid 1px black;
+  font-size: x-large;
+  float: left;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 800px) {
+  .container > div {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1290px) {
+  .container > div {
+    width: 33.3%;
+  }
+}
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#Jenn {
+  width: 50%;
+  height: 50%;
+  margin-left: 100px;
+}
+@media screen and (min-width: 800px) {
+  #Jenn {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 25%;
+    height: 25%;
+  }
+}
+@media screen and (min-width: 1290px) {
+  #Jenn {
+    width: 20%;
+    height: 20%;
+  }
+}
+
+.mascota {
+  width: 300px;
+  height: 330px;
+  margin-left: 100px;
+}
+@media screen and (min-width: 800px) {
+  .mascota {
+    width: 250px;
+    height: 270px;
+  }
+}
+@media screen and (min-width: 1290px) {
+  .mascota {
+    width: 200px;
+    height: 230px;
+  }
+}

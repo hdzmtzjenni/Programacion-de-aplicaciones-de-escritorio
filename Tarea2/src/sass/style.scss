@@ -1,0 +1,53 @@
+@import "colores";
+@import "mixins";
+html,body{
+    @include nomargin;
+    font-family: serif;
+}
+
+body{
+    height: 100%;
+}
+
+header,footer{
+    height: 80px;
+    width: 100%;
+    @include textAling;
+    background-color: $color-header-footer;
+}
+
+nav{
+    background-color: $color-nav;
+    height: 30px;
+    @include textAling;
+    font-size: large;
+}
+
+main{
+    max-width: 1600px;
+    margin:0 auto;
+}
+
+.contacto{
+    @include cuadrosInfo;
+    @include textAling;
+}
+
+#git,#in{
+    width: 5%;
+    height: 5%;
+}
+
+#principal{
+    box-sizing: border-box;
+    width:100%;
+    float: left;
+    font-size: x-large;
+}
+
+#info{
+    background-color: wheat;
+    @extend #principal;
+    width:60%;
+    margin: 40px;
+}
