@@ -1,4 +1,4 @@
-const axios = require('axios').default;
+const axios = require('axios');
 const apiKey = 'a78422626cc748d783413b7b753e799a' //Key para poder buscar noticias en news API
 module.exports =function(app){
     app.get('/',function(req,res){
