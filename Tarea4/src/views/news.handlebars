@@ -1,0 +1,11 @@
+<h2>News {{this.filtro}}</h2>
+<ul>
+    {{#each articles}}
+    <li> <a href= {{this.url}} target="_blank">{{this.title}} </a>
+        <br>
+        Descripcion: {{this.description}}
+        <br>
+        Fecha de publicación: {{this.publishedAt}}
+    </li>
+    {{/each}}
+</ul>  
