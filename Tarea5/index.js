@@ -16,7 +16,7 @@ const app = express();
 
 const mongoUrl = process.env.MONGO_URL;
 
-const port=process.send.PORT || 3000;
+const port=3000;
 
 const swaggerDocs = swaggerJsDoc(swaggerConf);
 app.use('/swagger',swaggerUrl.serve, swaggerUrl.setup(swaggerDocs));
