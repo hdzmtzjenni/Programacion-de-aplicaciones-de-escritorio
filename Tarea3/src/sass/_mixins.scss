@@ -1,0 +1,28 @@
+@mixin cuadrosInfo{
+    background-color: $color-primario;
+    height: auto;
+    width: 100%;
+    border: solid 1px black;
+    font-size: x-large;
+}
+
+@mixin nomargin{
+    margin: 0;
+    padding:0;
+}
+
+@mixin textAling{
+    text-align: center;
+}
+
+@mixin mobile{
+    @media screen and (min-width:800px){
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media screen and (min-width:1290px){
+        @content;
+    }
+}
