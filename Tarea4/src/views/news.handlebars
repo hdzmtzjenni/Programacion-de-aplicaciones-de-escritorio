@@ -1,0 +1,24 @@
+<h1>News {{this.filtro}}</h1>
+<ul>
+    
+    {{#each articles}}
+    <table>
+        <tr>
+            <th>
+                <img src={{this.urlToImage}}>
+            </th>
+            <th>
+                <a href= {{this.url}} target="_blank">
+                    <h2> {{this.title}} </h2>
+                </a>
+                <h3 id="autor">{{this.author}} | Fecha de publicación:{{this.publishedAt}}</h3> 
+                <br>
+                <a id="descripcion">{{this.description}}</a>
+                <br>
+                
+            </th>
+        </tr>
+    </table>
+    <hr>
+    {{/each}}
+</ul>  

@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+header{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+  }
+
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+img{
+  width: 300px;
+  height: 200px;
+}
+
+table{
+  background-color: rgb(251, 234, 212);
+  width: 100%;
+}
+
+#filtro{
+  width: 80%; 
+  margin-top: 20px; 
+  height: 40%;
+}
+
+button{
+  height: 50%; 
+  width: 10%; 
+  background-color: bisque; 
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+#autor{
+  font-style: italic;
+  font-size: small;
+}
+
+#descripcion{
+  text-align: start;
+}
+
