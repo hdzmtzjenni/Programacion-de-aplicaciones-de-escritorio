@@ -19,7 +19,7 @@ export class ProjectsComponent {
       {
         name:"Adopt a Friend",
         date: 'Diciembre 2022',
-        descripcion:"Página web desarrollada para ayudar a encontrarle un hogar a las mascotas abandonadas, esto a través de una interfaz sencilla de utilizar, donde las personas pueden publicar mascotas en adopción o dar en adopción alguna mascota.",
+        descripcion:"Página web desarrollada para ayudar a encontrarle un hogar a las mascotas abandonadas,donde las personas pueden publicar mascotas en adopción o dar en adopción alguna mascota, estodo esto a través de una interfaz sencilla de utilizar.",
         languages:['Css','Javascript','MongoDB','NodeJs']
       },
       {
