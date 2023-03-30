@@ -23,11 +23,6 @@
     }
 }
 
-.contenedor::after{
-    content: "";
-    display: table;
-    clear: both;
-}
 
 .informacion{
     font-size: large;
