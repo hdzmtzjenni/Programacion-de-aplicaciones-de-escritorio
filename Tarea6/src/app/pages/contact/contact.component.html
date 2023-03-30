@@ -1,0 +1,20 @@
+<h1>Contactos</h1>
+<div class="container">
+    <div class="cuadro" *ngFor="let item of contacts">
+        <div class="texto">
+            <h3>{{item.name}}</h3>
+            <hr>
+            <div class="imagen">
+                <img class="img" src="{{item.image}}">
+            </div>
+            <div class="link">
+                <a id="link" href="{{item.link}}" target="_blank">
+                    {{item.user}}
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+

@@ -1,0 +1,34 @@
+.contenedor {
+  position: relative;
+}
+
+.cuadro {
+    width: 50%;
+    height: 50%;
+    background-color: #bcdebb;
+    /* centrar vertical y horizontalmente */
+    position: absolute;
+    top: 25%;
+    left: 25%;
+
+    // Hacer que el borde sea redondo
+    border-radius:22px;
+}
+
+#texto{
+    margin: 10px;
+    h2{
+        text-align: center;
+
+    }
+}
+
+.contenedor::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.informacion{
+    font-size: large;
+}

@@ -1,0 +1,43 @@
+.contenedor {
+    position: relative;
+  }
+  
+  .cuadro {
+      width: 50%;
+      height: 50%;
+      background-color: #bcdebb;
+      /* centrar vertical y horizontalmente */
+      position: absolute;
+      top: 25%;
+      left: 25%;
+  
+      // Hacer que el borde sea redondo
+      border-radius:22px;
+  }
+  
+  #texto{
+      margin: 10px;
+      justify-content: baseline;
+  }
+
+  .educacion{
+    font-size: large;
+  }
+
+  .img{
+    height: 30%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .imagen{
+    align-items: center;
+  }
+
+  .name{
+    font-weight: bold;
+  }
+
+  h2{
+    text-align: center;
+  }
