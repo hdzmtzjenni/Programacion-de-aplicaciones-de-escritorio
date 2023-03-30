@@ -1,0 +1,24 @@
+<h1>Proyectos</h1>
+
+<div class="container">
+    <div class="cuadro" *ngFor="let item of projects">
+        <div class="texto">
+            <h3>{{item.name}}</h3>
+            <hr>
+            <div class="fecha">
+                <p class="date">Fecha: {{item.date}}</p>
+            </div>
+            <div class="descrpcion">
+                {{item.descripcion}}
+            </div>
+            <p>Lenguajes:</p>
+            <ul>
+                <li *ngFor ="let language of item.languages">
+                    {{language}}
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+</div>

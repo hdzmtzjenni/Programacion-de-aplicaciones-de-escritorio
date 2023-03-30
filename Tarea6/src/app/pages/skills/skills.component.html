@@ -1,0 +1,14 @@
+<h1>Skills</h1>
+<div class="container" >
+    <div class="cuadro" *ngFor ="let item of skills">
+        <div>
+            <div class="imagen">
+                <img class="img" src="{{item.image}}">
+            </div>
+            <div id="texto">
+                {{item.skill}}
+            </div>
+        </div>
+        
+    </div>
+</div>
